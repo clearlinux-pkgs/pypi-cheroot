@@ -15,7 +15,7 @@ Requires: pypi-cheroot-license = %{version}-%{release}
 Requires: pypi-cheroot-python = %{version}-%{release}
 Requires: pypi-cheroot-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(backports.functools_lru_cache)
 BuildRequires : pypi(jaraco.functools)
@@ -27,7 +27,7 @@ BuildRequires : pypi(setuptools_scm_git_archive)
 BuildRequires : pypi(six)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 .. image:: https://img.shields.io/pypi/v/cheroot.svg
