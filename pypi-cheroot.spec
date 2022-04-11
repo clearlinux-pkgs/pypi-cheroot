@@ -4,7 +4,7 @@
 #
 Name     : pypi-cheroot
 Version  : 8.6.0
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/99/c4/9b5ca09208047f2689c24ee63e195aa01ceffb7857d715cabc046559ddd6/cheroot-8.6.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/99/c4/9b5ca09208047f2689c24ee63e195aa01ceffb7857d715cabc046559ddd6/cheroot-8.6.0.tar.gz
 Summary  : Highly-optimized, pure-python HTTP server
@@ -15,19 +15,17 @@ Requires: pypi-cheroot-license = %{version}-%{release}
 Requires: pypi-cheroot-python = %{version}-%{release}
 Requires: pypi-cheroot-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pypi(pluggy)
-BuildRequires : py-python
-BuildRequires : pypi(backports.functools_lru_cache)
 BuildRequires : pypi(jaraco.functools)
 BuildRequires : pypi(more_itertools)
-BuildRequires : pypi(selectors2)
+BuildRequires : pypi(py)
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(setuptools_scm)
 BuildRequires : pypi(setuptools_scm_git_archive)
 BuildRequires : pypi(six)
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 .. image:: https://img.shields.io/pypi/v/cheroot.svg
@@ -64,10 +62,8 @@ Summary: python3 components for the pypi-cheroot package.
 Group: Default
 Requires: python3-core
 Provides: pypi(cheroot)
-Requires: pypi(backports.functools_lru_cache)
 Requires: pypi(jaraco.functools)
 Requires: pypi(more_itertools)
-Requires: pypi(selectors2)
 Requires: pypi(six)
 
 %description python3
@@ -83,7 +79,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641423218
+export SOURCE_DATE_EPOCH=1649693421
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
