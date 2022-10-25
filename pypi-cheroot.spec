@@ -4,7 +4,7 @@
 #
 Name     : pypi-cheroot
 Version  : 8.6.0
-Release  : 13
+Release  : 14
 URL      : https://files.pythonhosted.org/packages/99/c4/9b5ca09208047f2689c24ee63e195aa01ceffb7857d715cabc046559ddd6/cheroot-8.6.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/99/c4/9b5ca09208047f2689c24ee63e195aa01ceffb7857d715cabc046559ddd6/cheroot-8.6.0.tar.gz
 Summary  : Highly-optimized, pure-python HTTP server
