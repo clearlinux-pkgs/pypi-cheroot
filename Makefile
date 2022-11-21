@@ -1,5 +1,5 @@
 PKG_NAME := pypi-cheroot
-URL = https://files.pythonhosted.org/packages/99/c4/9b5ca09208047f2689c24ee63e195aa01ceffb7857d715cabc046559ddd6/cheroot-8.6.0.tar.gz
+URL = https://files.pythonhosted.org/packages/8c/e7/8e6387d59a352c5799e917a23e7b76771a8bb97322c1ce7e42934d0066c3/cheroot-9.0.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
