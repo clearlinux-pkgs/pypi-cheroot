@@ -7,7 +7,7 @@
 #
 Name     : pypi-cheroot
 Version  : 10.0.1
-Release  : 22
+Release  : 23
 URL      : https://files.pythonhosted.org/packages/63/e2/f85981a51281bd30525bf664309332faa7c81782bb49e331af603421dbd1/cheroot-10.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/63/e2/f85981a51281bd30525bf664309332faa7c81782bb49e331af603421dbd1/cheroot-10.0.1.tar.gz
 Summary  : Highly-optimized, pure-python HTTP server
